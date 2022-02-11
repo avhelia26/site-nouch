@@ -22,7 +22,6 @@ const Layout = ({ pageTitle, children}) => {
             <main>
                 <h1 className={test.heading}>{pageTitle}</h1>
                 {children}
-                <h2 className={test.subtitle}>Coucou</h2>
             </main>
         </div>
     )
